@@ -1,6 +1,5 @@
 import { createStore } from 'redux';
 
-
 const INITIAL_STATE = {
     activeLesson: {},
     activeModules: {},
@@ -32,7 +31,6 @@ const INITIAL_STATE = {
 
 function reducer(state = INITIAL_STATE, action) {
 
-    console.log('teste');
 
     if (action.type === "TOGGLE_LESSON") {
         return {

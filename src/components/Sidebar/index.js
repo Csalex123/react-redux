@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 /* Actions */
 function toggleLesson(lesson, module) {
     return {
-        type: 'TOGGLE_LESSON',
+        type: 'SET_LESSON',
         module,
         lesson
     };
